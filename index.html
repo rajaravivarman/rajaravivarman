@@ -78,10 +78,18 @@
     <!-- Header -->
     <section class="hero is-link is-fullheight is-fullheight-with-navbar">
       <div class="hero-body">
-        <div class="container">
-          Hello! I am
-          <h1 class="title is-1">Raja Ravi Varman</h1>
-          <h2 class="subtitle is-3">Cloud Native Solutions Architect</h2>
+        <div class="container columns has-same-height is-gapless">
+          <div class="row">
+            <!-- Profile picture -->
+            <figure class="image is-128x128">
+              <img class="is-rounded" src="./pic.jpg">
+            </figure>
+          </div>
+          <div class="row mx-3 box">
+            Hello! I am
+            <h1 class="title is-1 has-text-black">Raja Ravi Varman</h1>
+            <h2 class="subtitle is-3 has-text-black">Cloud Native Solutions Architect</h2>
+          </div>
         </div>
       </div>
     </section>
@@ -109,7 +117,7 @@
       <div class="columns has-same-height is-gapless">
         <div class="column">
           <!-- Profile -->
-          <div class="card">
+          <div class="card my-6">
             <div class="card-content">
               <h3 class="title is-4">Profile</h3>
 
@@ -142,19 +150,10 @@
             </div>
           </div>
         </div>
-        <div class="column">
-          <!-- Profile picture -->
-          <div class="card is-flex">
-            <div class="has-text-centered px-6 py-6">
-              <figure class="image is-128x128 mx-6 my-6">
-                <img class="is-rounded" src="./pic.jpg">
-              </figure>
-            </div>
-          </div>
-        </div>
+
         <div class="column">
           <!-- Skills -->
-          <div class="card">
+          <div class="card my-6">
             <div class="card-content skills-content">
               <h3 class="title is-4">Skills</h3>
               <div class="content">
